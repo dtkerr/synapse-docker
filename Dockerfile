@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-LABEL maintainer "Terry Kerr <terry@dtkerr.ca>"
+LABEL maintainer "Terry Kerr <t@xnr.ca>"
 
 RUN echo 'deb http://matrix.org/packages/debian stretch main' \
         > /etc/apt/sources.list.d/matrix.list && \
